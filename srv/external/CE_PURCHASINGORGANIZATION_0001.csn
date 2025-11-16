@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "creator": "cds-dk 9.3.2"
+ },
+ "$version": "2.0",
+ "definitions": {
+  "CE_PURCHASINGORGANIZATION_0001": {
+   "kind": "service",
+   "@cds.external": true,
+   "@Common.ApplyMultiUnitBehaviorForSortingAndFiltering": true,
+   "@Capabilities.FilterFunctions": [
+    "eq",
+    "ne",
+    "gt",
+    "ge",
+    "lt",
+    "le",
+    "and",
+    "or",
+    "contains",
+    "startswith",
+    "endswith",
+    "any",
+    "all"
+   ],
+   "@Capabilities.SupportedFormats": [
+    "application/json",
+    "application/pdf"
+   ],
+   "@PDF.Features": {
+    "DocumentDescriptionReference": "../../../../default/iwbep/common/0001/$metadata",
+    "DocumentDescriptionCollection": "MyDocumentDescriptions",
+    "ArchiveFormat": true,
+    "Border": true,
+    "CoverPage": true,
+    "FitToPage": true,
+    "FontName": true,
+    "FontSize": true,
+    "HeaderFooter": true,
+    "IANATimezoneFormat": true,
+    "Margin": true,
+    "Padding": true,
+    "ResultSizeDefault": 20000,
+    "ResultSizeMaximum": 20000,
+    "Signature": true,
+    "TextDirectionLayout": true,
+    "Treeview": true,
+    "UploadToFileShare": true
+   },
+   "@Capabilities.KeyAsSegmentSupported": true,
+   "@Capabilities.AsynchronousRequestsSupported": true
+  },
+  "CE_PURCHASINGORGANIZATION_0001.A_PurchasingOrganization": {
+   "kind": "entity",
+   "@cds.external": true,
+   "@cds.persistence.skip": true,
+   "elements": {
+    "PurchasingOrganization": {
+     "key": true,
+     "type": "cds.String",
+     "length": 4,
+     "notNull": true,
+     "@Common.IsUpperCase": true,
+     "@Common.Label": "Purchasing Organization",
+     "@Common.DocumentationRef": "urn:sap-com:documentation:key?=type=DE&id=EKORG_LL"
+    },
+    "PurchasingOrganizationName": {
+     "type": "cds.String",
+     "length": 20,
+     "notNull": true,
+     "@Common.Label": "Purch. Org. Name",
+     "@Common.QuickInfo": "Purchasing Organization Name"
+    },
+    "CompanyCode": {
+     "type": "cds.String",
+     "length": 4,
+     "notNull": true,
+     "@Common.IsUpperCase": true,
+     "@Common.Label": "Company Code",
+     "@Common.Heading": "CoCd",
+     "@Common.DocumentationRef": "urn:sap-com:documentation:key?=type=DE&id=BUKRS"
+    }
+   },
+   "@Common.Label": "Purchasing Organization",
+   "@Common.SemanticKey": [
+    "PurchasingOrganization"
+   ],
+   "@Capabilities.SearchRestrictions.Searchable": true,
+   "@Capabilities.SearchRestrictions.UnsupportedExpressions": {
+    "#": "group "
+   },
+   "@Capabilities.SearchRestrictions.SearchSyntax": "https://url.sap/odata-search",
+   "@Capabilities.InsertRestrictions.Insertable": false,
+   "@Capabilities.DeleteRestrictions.Deletable": false,
+   "@Capabilities.UpdateRestrictions.Updatable": false,
+   "@Capabilities.UpdateRestrictions.QueryOptions.SelectSupported": true
+  }
+ }
+}

@@ -1,0 +1,12 @@
+ID,SubCategory,Category_ID
+f1e2d3c4-b5a6-4c7d-8e9f-0a1b2c3d4e5f,Computadores,b7e1a8c2-1f2b-4e3c-9a1d-8f2e7c1a2b3c
+a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d,Impresoras,b7e1a8c2-1f2b-4e3c-9a1d-8f2e7c1a2b3c
+b3c4d5e6-f7a8-4b9c-0d1e-2f3a4b5c6d7e,Monitores,b7e1a8c2-1f2b-4e3c-9a1d-8f2e7c1a2b3c
+c4d5e6f7-a8b9-4c0d-1e2f-3a4b5c6d7e8f,Papelería,c2f4d1e3-5a6b-4c7d-8e9f-1a2b3c4d5e6f
+d5e6f7a8-b9c0-4d1e-2f3a-4b5c6d7e8f9a,Mobiliario,c2f4d1e3-5a6b-4c7d-8e9f-1a2b3c4d5e6f
+e6f7a8b9-c0d1-4e2f-3a4b-5c6d7e8f9a0b,Bebidas,e9a2b3c4-5d6e-7f8a-9b0c-1d2e3f4a5b6c
+f7a8b9c0-d1e2-4f3a-4b5c-6d7e8f9a0b1c,Snacks,e9a2b3c4-5d6e-7f8a-9b0c-1d2e3f4a5b6c
+a8b9c0d1-e2f3-4a5b-6c7d-8e9f0a1b2c3d,Limpieza,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d
+b9c0d1e2-f3a4-4b5c-6d7e-8f9a0b1c2d3e,Seguridad,a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d
+c0d1e2f3-a4b5-4c6d-7e8f-9a0b1c2d3e4f,Materiales,d3e4f5a6-b7c8-4d9e-8f0a-1b2c3d4e5f6a
+d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a,Mano de Obra,d3e4f5a6-b7c8-4d9e-8f0a-1b2c3d4e5f6a

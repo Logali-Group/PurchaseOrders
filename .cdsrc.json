@@ -1,0 +1,13 @@
+{
+    "requires": {
+        "[dev]": {
+            "db": {
+                "kind": "sqlite",
+                "credentials": {
+                    "url":"purchaseorder.sqlite"
+                }
+            },
+            "auth":"mocked"
+        }
+    }
+}

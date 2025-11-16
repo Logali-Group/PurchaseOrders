@@ -1,0 +1,41 @@
+{
+ "meta": {
+  "creator": "cds-dk 9.3.2"
+ },
+ "$version": "2.0",
+ "definitions": {
+  "ZCE_PURCHASEORDERTYPE": {
+   "kind": "service",
+   "@cds.external": true,
+   "@m.IsDefaultEntityContainer": "true",
+   "@sap.message.scope.supported": "true",
+   "@sap.supported.formats": "atom json xlsx"
+  },
+  "ZCE_PURCHASEORDERTYPE.PurchaseOrderType": {
+   "kind": "entity",
+   "@cds.external": true,
+   "@cds.persistence.skip": true,
+   "@sap.creatable": "false",
+   "@sap.updatable": "false",
+   "@sap.deletable": "false",
+   "@sap.content.version": "1",
+   "elements": {
+    "PurchaseOrderType": {
+     "key": true,
+     "type": "cds.String",
+     "length": 4,
+     "@sap.display.format": "UpperCase",
+     "@sap.label": "Cl.documento compras",
+     "@sap.quickinfo": "Clase de documento de compras",
+     "notNull": true
+    },
+    "PurchaseOrderTypeName": {
+     "type": "cds.String",
+     "length": 20,
+     "@sap.label": "Denom.cl.documento",
+     "@sap.quickinfo": "Denominación de la clase de documento de compras"
+    }
+   }
+  }
+ }
+}

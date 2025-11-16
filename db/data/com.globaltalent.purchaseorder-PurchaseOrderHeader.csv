@@ -1,0 +1,2 @@
+ID,PurchaseOrder,PurchaseOrderType_PurchaseOrderType,PurchasingOrganization_PurchasingOrganization,CompanyCode_CompanyCode,Supplier_Supplier,Language_code,PurchaseOrderDate,PurchasingGroup_PurchasingGroup,DocumentCurrency_code,PurchasingProcessingStatus_code
+550e8400-e29b-41d4-a716-446655440000,4500000001,NB,1010,1010,10300001,EN,2025-09-20,001,EUR,A

@@ -1,0 +1,1 @@
+PurchaseOrderItem,ID,PurchaseOrderItemText,Plant,StorageLocation,Customer,Material,MaterialGroup,ProductType,NetPriceQuantity,NetPriceAmount,OrderQuantity,OrderPriceUnit,DocumentCurrency_code,PurchaseOrder_ID

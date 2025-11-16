@@ -1,0 +1,5 @@
+code;name;descr;criticality
+H;En Retención;;2
+A;Activo;;5
+C;Completado;;3
+R;Rechazado;;1

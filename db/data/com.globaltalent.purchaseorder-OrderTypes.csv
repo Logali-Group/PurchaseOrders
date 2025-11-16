@@ -1,0 +1,11 @@
+ID,PurchaseOrderType,Description
+1db422bf-f051-4212-959c-903abace8d4d,NB,Pedido Estándar
+0a08e018-9663-4f1d-89ad-12a62caea6b7,FO,Pedido de Acuerdo Marco
+1dbca714-a73a-4a50-afa6-9acee2ddb4dc,LB,Pedido de Entrega Programada
+c25b459b-775e-4044-bd67-b0c760cea059,UB,Pedido de Transferencia
+fb644b17-391f-4238-b3b7-9e99f1d55126,PB,Pedido de Consignación
+100eee9e-46a6-4d62-8a32-579040af9053,SB,Pedido de Subcontratación
+e8fa3d8a-4397-449b-b55c-7c7d41029166,ST,Pedido de Stock de Tránsito
+ece81af6-5eaa-4438-b881-5de7e677708b,ZO,Pedido de Servicios
+39b82372-5e6a-4b53-98e5-700fbd4dfde6,ZP,Pedido de Proyectos
+6d97ed6f-3481-4b54-80e4-7933ce1804f2,ZT,Pedido Temporal

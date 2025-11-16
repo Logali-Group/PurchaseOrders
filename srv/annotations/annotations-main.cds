@@ -1,0 +1,10 @@
+using from './annotations-purchaseorder';
+using from './annotations-overallstatus';
+using from './annotations-suppliers';
+using from './annotatuibs-companies';
+using from './annotations-organizations';
+using from './annotations-ordertypes';
+using from './annotations-groups';
+using from './annotations-plants';
+using from './annotations-products';
+using from './annotations-units';

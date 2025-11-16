@@ -1,0 +1,21 @@
+ID,PurchasingOrganization,Description,Company_ID
+d3c3f3e2-3c4d-6e5f-0a1b-323456789001,1000,Organización Principal,c2b2e2d1-2b3c-5d4e-9f0a-223456789001
+d3c3f3e2-3c4d-6e5f-0a1b-323456789002,2000,Compras Internacionales,c2b2e2d1-2b3c-5d4e-9f0a-223456789002
+d3c3f3e2-3c4d-6e5f-0a1b-323456789003,3000,Organización Regional Norte,c2b2e2d1-2b3c-5d4e-9f0a-223456789003
+d3c3f3e2-3c4d-6e5f-0a1b-323456789004,4000,Organización Regional Sur,c2b2e2d1-2b3c-5d4e-9f0a-223456789004
+d3c3f3e2-3c4d-6e5f-0a1b-323456789005,5000,Compras Especiales,c2b2e2d1-2b3c-5d4e-9f0a-223456789005
+d3c3f3e2-3c4d-6e5f-0a1b-323456789006,6000,Organización de Proyectos,c2b2e2d1-2b3c-5d4e-9f0a-223456789006
+d3c3f3e2-3c4d-6e5f-0a1b-323456789007,7000,Compras de Tecnología,c2b2e2d1-2b3c-5d4e-9f0a-223456789007
+d3c3f3e2-3c4d-6e5f-0a1b-323456789008,8000,Organización de Servicios,c2b2e2d1-2b3c-5d4e-9f0a-223456789008
+d3c3f3e2-3c4d-6e5f-0a1b-323456789009,9000,Compras de Insumos,c2b2e2d1-2b3c-5d4e-9f0a-223456789009
+d3c3f3e2-3c4d-6e5f-0a1b-323456789010,1100,Organización de Logística,c2b2e2d1-2b3c-5d4e-9f0a-223456789010
+f1a1e1c0-1a2b-4c3d-8e9f-123456789011,1200,Compras de Tecnología Norte,c2b2e2d1-2b3c-5d4e-9f0a-223456789001
+f1a1e1c0-1a2b-4c3d-8e9f-123456789012,1201,Compras de Tecnología Sur,c2b2e2d1-2b3c-5d4e-9f0a-223456789002
+f1a1e1c0-1a2b-4c3d-8e9f-123456789013,1202,Compras de Tecnología Este,c2b2e2d1-2b3c-5d4e-9f0a-223456789003
+f1a1e1c0-1a2b-4c3d-8e9f-123456789014,1203,Compras de Tecnología Oeste,c2b2e2d1-2b3c-5d4e-9f0a-223456789004
+f1a1e1c0-1a2b-4c3d-8e9f-123456789015,1204,Compras de Servicios Norte,c2b2e2d1-2b3c-5d4e-9f0a-223456789005
+f1a1e1c0-1a2b-4c3d-8e9f-123456789016,1205,Compras de Servicios Sur,c2b2e2d1-2b3c-5d4e-9f0a-223456789006
+f1a1e1c0-1a2b-4c3d-8e9f-123456789017,1206,Compras de Servicios Este,c2b2e2d1-2b3c-5d4e-9f0a-223456789007
+f1a1e1c0-1a2b-4c3d-8e9f-123456789018,1207,Compras de Servicios Oeste,c2b2e2d1-2b3c-5d4e-9f0a-223456789008
+f1a1e1c0-1a2b-4c3d-8e9f-123456789019,1208,Compras de Insumos Norte,c2b2e2d1-2b3c-5d4e-9f0a-223456789009
+f1a1e1c0-1a2b-4c3d-8e9f-123456789020,1209,Compras de Insumos Sur,c2b2e2d1-2b3c-5d4e-9f0a-223456789010

@@ -1,0 +1,74 @@
+{
+ "meta": {
+  "creator": "cds-dk 9.3.2"
+ },
+ "$version": "2.0",
+ "definitions": {
+  "API_STORAGELOCATION_SRV": {
+   "kind": "service",
+   "@cds.external": true,
+   "@m.IsDefaultEntityContainer": "true",
+   "@sap.message.scope.supported": "true",
+   "@sap.supported.formats": "atom json xlsx"
+  },
+  "API_STORAGELOCATION_SRV.StorageLocation": {
+   "kind": "entity",
+   "@cds.external": true,
+   "@cds.persistence.skip": true,
+   "@sap.creatable": "false",
+   "@sap.updatable": "false",
+   "@sap.deletable": "false",
+   "@sap.content.version": "1",
+   "@sap.label": "Ubicación de almacén",
+   "elements": {
+    "Plant": {
+     "key": true,
+     "type": "cds.String",
+     "length": 4,
+     "@sap.display.format": "UpperCase",
+     "@sap.label": "Centro",
+     "notNull": true
+    },
+    "StorageLocation": {
+     "key": true,
+     "type": "cds.String",
+     "length": 4,
+     "@sap.display.format": "UpperCase",
+     "@sap.label": "Almacén",
+     "notNull": true
+    },
+    "StorageLocationName": {
+     "type": "cds.String",
+     "length": 16,
+     "@sap.label": "Nombre de almacén"
+    },
+    "SalesOrganization": {
+     "type": "cds.String",
+     "length": 4,
+     "@sap.display.format": "UpperCase",
+     "@sap.label": "Organización ventas",
+     "@sap.quickinfo": "Organización de ventas"
+    },
+    "DistributionChannel": {
+     "type": "cds.String",
+     "length": 2,
+     "@sap.display.format": "UpperCase",
+     "@sap.label": "Canal distribución",
+     "@sap.quickinfo": "Canal de distribución"
+    },
+    "Division": {
+     "type": "cds.String",
+     "length": 2,
+     "@sap.display.format": "UpperCase",
+     "@sap.label": "Sector"
+    },
+    "IsStorLocAuthznCheckActive": {
+     "type": "cds.Boolean",
+     "@sap.display.format": "UpperCase",
+     "@sap.label": "Control autorización",
+     "@sap.quickinfo": "Autorización almacén activa durante movimientos mercancías"
+    }
+   }
+  }
+ }
+}

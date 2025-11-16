@@ -1,0 +1,45 @@
+code,name,descr
+EA,Each,Cada Uno
+PC,Piece,Pieza
+PI,Piece,Pieza
+ST,Stück (Piece),Pieza
+UN,Unit,Unidad
+BAG,Bag,Bolsa
+BAL,Bale,Fardo
+BOT,Bottle,Botella
+BOX,Box,Caja
+CAS,Case,Caja
+CTN,Carton,Cartón
+CAN,Can,Lata
+PAL,Pallet,Paleta
+ROL,Roll,Rollo
+SET,Set,Conjunto
+PAK,Pack,Paquete
+PR,Pair,Par
+DZ,Dozen,Docena
+M,Meter,Metro
+M2,Square Meter,Metro Cuadrado
+M3,Cubic Meter,Metro Cúbico
+CM,Centimeter,Centímetro
+MM,Millimeter,Milímetro
+KM,Kilometer,Kilómetro
+IN,Inch,Pulgada
+FT,Foot,Pie
+YD,Yard,Yarda
+FT2,Square Foot,Pie Cuadrado
+FT3,Cubic Foot,Pie Cúbico
+L,Liter,Litro
+ML,Milliliter,Milílitro
+GAL,Gallon,Galón
+G,Gram,Gramo
+KG,Kilogram,Kilogramo
+MG,Milligram,Miligramo
+TO,Tonne (Metric Ton),Tonelada
+LB,Pound,Libra
+OZ,Ounce,Onza
+HR,Hour,Hora
+MIN,Minute,Minuto
+SEC,Second,Segundo
+DAY,Day,Día
+MON,Month,Mes
+ANN,Year (Annum),Año

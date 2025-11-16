@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "purchaseorder",
+            "database": "${workspaceFolder:gt_purchase_order}/purchaseorder.sqlite"
+        }
+    ]
+}
